@@ -32,7 +32,7 @@ public class AddressController {
 				.buildAndExpand(address.getId())
 				.toUri();
 
-		return ResponseEntity.ok(address.getId());
+		return ResponseEntity.created(location).build();
 	}
 
 	@DeleteMapping("/{id}")
