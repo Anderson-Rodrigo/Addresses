@@ -11,7 +11,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 public class AddressGeocoding implements Serializable {
 
-	private Double latitute;
+	private Double latitude;
 
 	private Double longitude;
 

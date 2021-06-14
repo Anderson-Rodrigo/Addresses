@@ -18,7 +18,7 @@ public class AddressService {
 		if(!containsLatitudeAndLongitude(address)){
 			AddressGeocoding geocoding = addressFinder.findGeoCodingByDescription(getAddressDescription(address));
 			if(geocoding != null){
-				address.setLatitude(geocoding.getLatitute());
+				address.setLatitude(geocoding.getLatitude());
 				address.setLongitude(geocoding.getLongitude());
 			}
 		}
