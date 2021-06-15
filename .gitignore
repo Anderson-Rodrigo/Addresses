@@ -32,3 +32,5 @@ build/
 ### VS Code ###
 .vscode/
 /logs/*.log
+/logs/addresses-api-test.log.2021-06-14.0.gz
+/logs/addresses-api.log.2021-06-14.0.gz
